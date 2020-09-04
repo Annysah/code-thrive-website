@@ -107,6 +107,10 @@
 }
 
 @media screen and (max-width: 900px) {
+    .blob-img {
+        display: none;
+    }
+    
     .wave-img {
         display: none;
     }
