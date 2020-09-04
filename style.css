@@ -82,6 +82,16 @@
     background: none !important;
 }
 
+.blob-img {
+    position: absolute;
+    bottom: 18%;
+    width: 100%;
+    display: block;
+    z-index: -1;
+    opacity: .3;
+}
+
+
 .feature-img {
     width: 100%;
     padding: 40px;
