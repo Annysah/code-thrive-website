@@ -18,6 +18,7 @@
 
 .nav-link:hover {
     background-color: #45c3b8 !important;
+    border-radius: 10px;
     color: #fff !important;
 }
 
@@ -91,7 +92,6 @@
     opacity: .3;
 }
 
-
 .feature-img {
     width: 100%;
     padding: 40px;
@@ -99,18 +99,67 @@
 
 .wave-img {
     position: absolute;
-    top: 70%;
+    top: 70%; 
     width: 100%;
     display: block;
     z-index: -1;
     opacity: .3;
 }
 
+.about h2 {
+    color: #45c3b8 !important;
+}
+
+.about p {
+    color: #555 !important;
+}
+
+.courses, h2 {
+    color:  #fff !important;
+}
+
+.courses {
+    background: #45c3b8 !important;
+    opacity: .8;
+}
+
+.contact-us h2{
+    margin-top: 15px;
+    color: #45c3b8 !important;
+}
+
+form .submit {
+    background: #45c3b8 !important;
+    color: #fff !important;
+    border-radius: 10px;
+    border-color: transparent;
+    letter-spacing: 2px;
+    font-size: 18px;
+    margin-top: 10px;
+    padding: 8px;
+}
+
+form .submit:hover{
+    background: transparent !important;
+    color: #45c3b8 !important;
+    cursor: pointer;
+}
+
+.footer {
+    background: #45c3b8 !important;
+    color: #fff !important;
+    margin-top: 20px;
+}
+
+.fa-laptop, .fa-css3, .fa-bug {
+    color: #555 !important;
+}
+
 @media screen and (max-width: 900px) {
     .blob-img {
         display: none;
     }
-    
+
     .wave-img {
         display: none;
     }
